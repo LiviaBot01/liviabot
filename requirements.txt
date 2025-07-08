@@ -6,7 +6,7 @@ slack-bolt>=1.18.1
 slack-sdk>=3.26.2
 
 # OpenAI
-openai>=1.33.0
+openai>=1.62.0
 
 # Utilitários
 python-dotenv>=1.0.1
