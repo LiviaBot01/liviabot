@@ -1,0 +1,12 @@
+# Dependências da LiviaBot
+# Bot para Slack com integração OpenAI
+
+# Slack SDK
+slack-bolt==1.18.1
+slack-sdk==3.26.2
+
+# OpenAI
+openai==1.12.0
+
+# Utilitários
+python-dotenv==1.0.1
