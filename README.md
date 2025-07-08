@@ -25,8 +25,8 @@ A LiviaBot é uma assistente de IA que responde mensagens diretas, canais e thre
 ### Passo 1: Clone o repositório
 
 ```bash
-git clone https://github.com/LiviaBot01/Livia.git
-cd Livia
+git clone https://github.com/LiviaBot01/liviabot.git
+cd liviabot
 ```
 
 ### Passo 2: Instale as dependências
@@ -37,23 +37,13 @@ pip install -r requirements.txt
 
 ### Passo 3: Configure as variáveis de ambiente
 
-**Exporte suas credenciais** no terminal:
-
 ```bash
 export SLACK_BOT_TOKEN="xoxb..."
 export SLACK_APP_TOKEN="xapp..."
 export OPENAI_API_KEY="sk..."
 ```
 
-### Passo 4: Configuração da OpenAI
-Caso as chaves ja tenham sido fornecidas, utilize o passo 3
-
-1. Acesse [platform.openai.com](https://platform.openai.com)
-2. Vá em **"API Keys"**
-3. Crie uma nova chave de API
-4. Copie a chave (será seu `OPENAI_API_KEY`)
-
-### Passo 6: Executar a LiviaBot
+### Passo 4: Executar a LiviaBot
 
 ```bash
 python Livia.py
@@ -64,6 +54,7 @@ Se tudo estiver configurado corretamente, você verá:
 ```
 🤖 Livia está iniciando...
 ✅ Conectada ao Slack!
+⚡️ Bolt app is running!
 ```
 
 ## 📝 Como Usar
